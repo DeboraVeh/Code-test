@@ -43,7 +43,7 @@ class PreTrainedPipeline():
         """
 
         hidden = tf.zeros((1, 512))
-
+        max_length = 46
         temp_input = tf.expand_dims(load_image(image)[0], 0)
         img_tensor_val = self.image_features_extract_model(temp_input)
         img_tensor_val = tf.reshape(img_tensor_val, (img_tensor_val.shape[0],
