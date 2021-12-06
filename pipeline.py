@@ -19,7 +19,7 @@ class PreTrainedPipeline():
 
         self.image_features_extract_model = tf.keras.Model(new_input, hidden_layer)
         
-        with open('tokenizer.pickle', 'rb') as handle:
+        with open('./tokenizer.pickle', 'rb') as handle:
             self.tokenizer = pickle.load(handle)
 
 
