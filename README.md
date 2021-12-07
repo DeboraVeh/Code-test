@@ -3,6 +3,7 @@ tags:
 - image-to-text
 - generic
 library_name: generic
+pipeline_tag: image-to-text
 widget:
 - src: https://huggingface.co/datasets/mishig/sample_images/resolve/main/cat-1.jpg
   example_title: Kedis
