@@ -1,5 +1,6 @@
 ---
 tags:
+- image-to-text
 - generic
 library_name: generic
 widget:
