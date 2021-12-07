@@ -67,4 +67,10 @@ class PreTrainedPipeline():
                 return result
 
             dec_input = tf.expand_dims([predicted_id], 0)
-        return result
+        resp = ""
+        for i in result:
+            if i!=1:
+                resp = resp + " " + result[i]
+            else:
+                resp += result[i]
+        return resp
