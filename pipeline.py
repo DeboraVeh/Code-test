@@ -10,7 +10,7 @@ class PreTrainedPipeline():
         
         # load the model
         self.decoder = keras.models.load_model(os.path.join(path, "decoder"))
-        self.decoder = keras.models.load_model(os.path.join(path, "encoder"))
+        self.encoder = keras.models.load_model(os.path.join(path, "encoder"))
         
         image_model = tf.keras.applications.InceptionV3(include_top=False,
                                                 weights='imagenet')
