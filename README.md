@@ -11,7 +11,7 @@ widget:
   example_title: Cat in a Crate
 - src: https://huggingface.co/datasets/mishig/sample_images/resolve/main/cat-3.jpg
   example_title: Two Cats Chilling
-license: cc0.0
+license: cc0-1.0
 ---
 ## Tensorflow Keras Implementation of an Image Captioning Model with encoder-decoder network. 🌃🌅🎑
 
